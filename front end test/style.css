@@ -1,0 +1,190 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+}
+
+nav{
+    background-color: #fcd44d;
+}
+
+
+.search{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background: black;
+    padding: 30px;
+    border-radius: 65px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.submit{
+    font-size: 26px;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+    
+}
+.search-txt{
+    width: 0;
+    font-size: 26px;
+    border: none;
+    background: transparent;
+    outline: none;
+    transition: 1s;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.252);
+    background-color: white;
+    opacity:1;
+    font-size: 15px;
+}
+.active .submit{
+    color: white;
+    float: right;
+}
+.active .search-txt{
+  width: 150px;
+  padding: 0 20px;
+}
+
+.carousel-item{
+    height: 57.5rem;
+    background:white;
+    color:white;
+    position: relative;
+    background-position: fixed;
+    background-size:cover ;
+}
+
+.owl-container{
+    position: absolute;
+    bottom:0;
+    left: 80px;
+    right:0;
+    padding-bottom :50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    top:0;
+    background-position: fixed;
+    background-size: cover;
+    opacity: 1;
+    
+}
+
+.img-fluid {
+    width: 100%;
+    height: 70rem;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:50;
+    top:0;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px; /* change width */
+    height: 10px; /* change height */
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: grey;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-radius: 100%;  /* add border-radius */
+  }
+
+.tab-content {
+    border: transparent;
+    padding: 15px;
+}
+
+.dimension {
+    width: 300px;
+    height: 150px;
+}
+
+hr { 
+      overflow: hidden; 
+      border-style: inset; 
+      border-width: 1px;
+      color:#faec21;
+      opacity: 0.8;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #0071ba;
+    color: #fff;
+    border: 3px solid #0071ba;
+}
+
+.navbar-fixed-top  {
+    top:-70px;
+    opacity:0;
+    }
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+
+.btn {
+    font-size: 13px;
+    color:#0071ba;
+}
+
+.mycontent-left {
+    border-right: 1px dashed #333;
+  }
+
+.vr {
+      overflow: hidden; 
+      border-style: inset; 
+      border-width: 1px;
+      color: #0071ba;
+      opacity: 1;
+
+}
+
+.readmore{
+    font-size: 20px;
+}
+
+footer{
+    padding: 30px;
+    background-color: #fcd44d;
+    margin-left:0px;;
+
+}
+
+  .bottomMenu {
+    display: none;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background:  #fcd44d ;
+    z-index: 1;
+  }
+
